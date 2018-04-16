@@ -41,6 +41,8 @@ function DeleteUser(id) {
                 id: id
             },
             function (data, status) {
+
+                console.log(data);
                 // reload Users by using readRecords();
                 readRecords();
             }

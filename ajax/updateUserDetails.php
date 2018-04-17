@@ -7,12 +7,12 @@ if(isset($_POST))
 {
     // get values
     $id = $_POST['id'];
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $email = $_POST['email'];
+    $agente_inmobiliario = $_POST['agente_inmobiliario'];
+    $tel_agente_inmobiliario = $_POST['tel_agente_inmobiliario'];
+    $zona = $_POST['zona'];
 
     // Updaste User details
-    $query = "UPDATE users SET first_name = '$first_name', last_name = '$last_name', email = '$email' WHERE id = '$id'";
+    $query = "UPDATE users SET agente_inmobiliario = '$agente_inmobiliario', tel_agente_inmobiliario = '$tel_agente_inmobiliario', zona = '$zona' WHERE id = '$id'";
     if (!$result = mysqli_query($db,$query)) {
         exit(mysqli_error($db));
     }

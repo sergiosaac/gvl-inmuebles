@@ -58,9 +58,9 @@ function GetUserDetails(id) {
             // PARSE json data
             var user = JSON.parse(data);
             // Assing existing values to the modal popup fields
-            $("#update_first_name").val(user.first_name);
-            $("#update_last_name").val(user.last_name);
-            $("#update_email").val(user.email);
+            $("#update_agente_inmobiliario").val(user.agente_inmobiliario);
+            $("#update_tel_agente_inmobiliario").val(user.tel_agente_inmobiliario);
+            $("#update_zona").val(user.zona);
         }
     );
     // Open modal popup
@@ -69,9 +69,9 @@ function GetUserDetails(id) {
 
 function UpdateUserDetails() {
     // get values
-    var first_name = $("#update_first_name").val();
-    var last_name = $("#update_last_name").val();
-    var email = $("#update_email").val();
+    var agente_inmobiliario = $("#update_agente_inmobiliario").val();
+    var tel_agente_inmobiliario = $("#update_tel_agente_inmobiliario").val();
+    var zona = $("#update_zona").val();
 
     // get hidden field value
     var id = $("#hidden_user_id").val();
@@ -79,11 +79,13 @@ function UpdateUserDetails() {
     // Update the details by requesting to the server using ajax
     $.post("ajax/updateUserDetails.php", {
             id: id,
-            first_name: first_name,
-            last_name: last_name,
-            email: email
+            agente_inmobiliario: agente_inmobiliario,
+            tel_agente_inmobiliario: tel_agente_inmobiliario,
+            zona: zona
         },
         function (data, status) {
+
+            console.log(data);
             // hide modal popup
             $("#update_user_modal").modal("hide");
             // reload Users by using readRecords();

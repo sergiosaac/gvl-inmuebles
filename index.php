@@ -91,17 +91,17 @@
 
                 <div class="form-group">
                     <label for="update_first_name">Agente inmobiliario</label>
-                    <input type="text" id="update_first_name" placeholder="First Name" class="form-control"/>
+                    <input type="text" id="update_agente_inmobiliario" placeholder="First Name" class="form-control"/>
                 </div>
 
                 <div class="form-group">
                     <label for="update_last_name">Tel. Agente inmobiliario</label>
-                    <input type="text" id="update_last_name" placeholder="Last Name" class="form-control"/>
+                    <input type="text" id="update_tel_agente_inmobiliario" placeholder="Last Name" class="form-control"/>
                 </div>
 
                 <div class="form-group">
                     <label for="update_email">Zona</label>
-                    <input type="text" id="update_email" placeholder="Email Address" class="form-control"/>
+                    <input type="text" id="update_zona" placeholder="Email Address" class="form-control"/>
                 </div>
 
             </div>

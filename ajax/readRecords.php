@@ -6,11 +6,11 @@
 	$data = '<table class="table table-bordered table-striped">
 						<tr>
 							<th>No.</th>
-							<th>First Name</th>
-							<th>Last Name</th>
-							<th>Email Address</th>
-							<th>Update</th>
-							<th>Delete</th>
+							<th>Agente inmobliliario</th>
+							<th>Tel Agente inmobliliario</th>
+							<th>Zona</th>
+							<th>Editar</th>
+							<th>Borrar</th>
 						</tr>';
 
 	$query = "SELECT * FROM users";
@@ -31,10 +31,10 @@
 				<td>'.$row['tel_agente_inmobiliario'].'</td>
 				<td>'.$row['zona'].'</td>
 				<td>
-					<button onclick="GetUserDetails('.$row['id'].')" class="btn btn-warning">Update</button>
+					<img class="icon-accion" onclick="GetUserDetails('.$row['id'].')" src="img/deit.png" height="30" width="30">
 				</td>
 				<td>
-					<button onclick="DeleteUser('.$row['id'].')" class="btn btn-danger">Delete</button>
+					<img class="icon-accion" onclick="DeleteUser('.$row['id'].')" src="img/borrar.png" height="30" width="30">
 				</td>
     		</tr>';
     		$number++;

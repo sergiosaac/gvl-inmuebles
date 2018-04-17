@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PHP and MySQL CRUD Operations Demo</title>
+    <title>Kiara Admin Inmuebles</title>
 
     <!-- Bootstrap CSS File  -->
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/estilos.css"/>
 </head>
 <body>
 
@@ -28,14 +29,14 @@
     <div class="row">
         <div class="col-md-12">
             <div class="pull-right">
-                <button class="btn btn-success" data-toggle="modal" data-target="#add_new_record_modal">Agregar inmueble</button>
+                <img class="icon-accion" data-toggle="modal" data-target="#add_new_record_modal" src="img/add.png" height="34" width="34">
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
             <h3>Lista de inmuebles:</h3>
-
+            <br>
             <div class="records_content"></div>
         </div>
     </div>

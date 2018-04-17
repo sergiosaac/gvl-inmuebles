@@ -1,18 +1,16 @@
 // Add Record
 function addRecord() {
     // get values
-    var first_name = $("#first_name").val();
-    var last_name = $("#last_name").val();
-    var email = $("#email").val();
+    var agente_inmobiliario = $("#agente_inmobiliario").val();
+    var tel_agente_inmobiliario = $("#tel_agente_inmobiliario").val();
+    var zona = $("#zona").val();
 
     // Add record
     $.post("ajax/addRecord.php", {
-        first_name: first_name,
-        last_name: last_name,
-        email: email
+        agente_inmobiliario: agente_inmobiliario,
+        tel_agente_inmobiliario: tel_agente_inmobiliario,
+        zona: zona
     }, function (data, status) {
-
-        console.log(data);
         // close the popup
         $("#add_new_record_modal").modal("hide");
 
@@ -20,9 +18,9 @@ function addRecord() {
         readRecords();
 
         // clear fields from the popup
-        $("#first_name").val("");
-        $("#last_name").val("");
-        $("#email").val("");
+        $("#agente_inmobiliario").val("");
+        $("#tel_agente_inmobiliario").val("");
+        $("#zona").val("");
     });
 }
 

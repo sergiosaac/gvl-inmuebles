@@ -27,9 +27,9 @@
     	{
     		$data .= '<tr>
 				<td>'.$number.'</td>
-				<td>'.$row['first_name'].'</td>
-				<td>'.$row['last_name'].'</td>
-				<td>'.$row['email'].'</td>
+				<td>'.$row['agente_inmobiliario'].'</td>
+				<td>'.$row['tel_agente_inmobiliario'].'</td>
+				<td>'.$row['zona'].'</td>
 				<td>
 					<button onclick="GetUserDetails('.$row['id'].')" class="btn btn-warning">Update</button>
 				</td>

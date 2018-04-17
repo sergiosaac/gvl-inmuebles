@@ -56,17 +56,17 @@
 
                 <div class="form-group">
                     <label for="first_name">Agente inmobiliario</label>
-                    <input type="text" id="first_name" placeholder="First Name" class="form-control"/>
+                    <input type="text" id="agente_inmobiliario" placeholder="First Name" class="form-control"/>
                 </div>
 
                 <div class="form-group">
                     <label for="last_name">Tel. Agente inmobiliario</label>
-                    <input type="text" id="last_name" placeholder="Last Name" class="form-control"/>
+                    <input type="text" id="tel_agente_inmobiliario" placeholder="Last Name" class="form-control"/>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Zona</label>
-                    <input type="text" id="email" placeholder="Email Address" class="form-control"/>
+                    <input type="text" id="zona" placeholder="Email Address" class="form-control"/>
                 </div>
 
             </div>

@@ -9,23 +9,32 @@
 </head>
 <body>
 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Kiara Admin Inmuebles</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Inicio</a></li>
+      <li><a href="#">(Modulo 2)</a></li>
+      <li><a href="#">(Modulo 3)</a></li>
+    </ul>
+  </div>
+</nav>
+
 <!-- Content Section -->
 <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>Demo: PHP and MySQL CRUD Operations using Jquery</h1>
-        </div>
-    </div>
+    
     <div class="row">
         <div class="col-md-12">
             <div class="pull-right">
-                <button class="btn btn-success" data-toggle="modal" data-target="#add_new_record_modal">Add New Record</button>
+                <button class="btn btn-success" data-toggle="modal" data-target="#add_new_record_modal">Agregar inmueble</button>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
-            <h3>Records:</h3>
+            <h3>Lista de inmuebles:</h3>
 
             <div class="records_content"></div>
         </div>
@@ -41,29 +50,29 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Add New Record</h4>
+                <h4 class="modal-title" id="myModalLabel">Agregar inmueble</h4>
             </div>
             <div class="modal-body">
 
                 <div class="form-group">
-                    <label for="first_name">First Name</label>
+                    <label for="first_name">Agente inmobiliario</label>
                     <input type="text" id="first_name" placeholder="First Name" class="form-control"/>
                 </div>
 
                 <div class="form-group">
-                    <label for="last_name">Last Name</label>
+                    <label for="last_name">Tel. Agente inmobiliario</label>
                     <input type="text" id="last_name" placeholder="Last Name" class="form-control"/>
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email Address</label>
+                    <label for="email">Zona</label>
                     <input type="text" id="email" placeholder="Email Address" class="form-control"/>
                 </div>
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary" onclick="addRecord()">Add Record</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="addRecord()">Crear</button>
             </div>
         </div>
     </div>
@@ -76,29 +85,29 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Update</h4>
+                <h4 class="modal-title" id="myModalLabel">Editar</h4>
             </div>
             <div class="modal-body">
 
                 <div class="form-group">
-                    <label for="update_first_name">First Name</label>
+                    <label for="update_first_name">Agente inmobiliario</label>
                     <input type="text" id="update_first_name" placeholder="First Name" class="form-control"/>
                 </div>
 
                 <div class="form-group">
-                    <label for="update_last_name">Last Name</label>
+                    <label for="update_last_name">Tel. Agente inmobiliario</label>
                     <input type="text" id="update_last_name" placeholder="Last Name" class="form-control"/>
                 </div>
 
                 <div class="form-group">
-                    <label for="update_email">Email Address</label>
+                    <label for="update_email">Zona</label>
                     <input type="text" id="update_email" placeholder="Email Address" class="form-control"/>
                 </div>
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary" onclick="UpdateUserDetails()" >Save Changes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="UpdateUserDetails()" >Guardar cambios</button>
                 <input type="hidden" id="hidden_user_id">
             </div>
         </div>

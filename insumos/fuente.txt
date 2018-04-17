@@ -1,0 +1,1 @@
+https://www.itechempires.com/2016/03/php-mysql-crud-create-read-update-delete-operations-using-jquery/

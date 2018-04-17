@@ -1,0 +1,20 @@
+AMB de inmuebles
+
+	CAMPOS de detalles de inmueble
+	una foto de la casa
+
+- Buscador de inmuebles por ubicacion
+
+- Ver detalles de un inmuebles con los campos:
+	
+●agente inmobiliario
+●Telefono del agente inmobiliario
+●zona: rural o urbana
+●barrio:
+●	direccion
+●precio para alquilar
+● comision de alquiler
+●	detalles de contruccion
+	•cantidad de piesas
+	•cantidad de autos en garage
+•cantidad de baños etc osea esto puede estar en un solo campo que diga caracteristicas o detalles del inmueble o lo que ofrece

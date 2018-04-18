@@ -32,9 +32,17 @@
             <h3>Lista de inmuebles:</h3>
             <br>
             <div class="row">
+                <div class="cargando row col-md-1" style="text-align: center; margin-top: 10px;">
+                    <img height="45" width="45" src="https://www.dealtas.com/includes/images/482.GIF">
+                </div>
+
+                <div class="row col-md-12">
+                    <input style="padding: 25px;" id="criterio" type="text" class="form-control" id="busqueda" onkeyup="search()" placeholder="Buscar...">
+                </div>
                 
-                <input type="text" class="form-control" id="busqueda" placeholder="Buscar...">
                 <br>
+                <br>
+                <br><br>
 
                 <div class="row">
                     <div class="col-md-12">
@@ -81,7 +89,7 @@
                     <label for="email">Zona</label>
 
                     <select id="zona" class="form-control" id="sel1">
-                        <option value="Rutal">Rutal</option>
+                        <option value="Rural">Rural</option>
                         <option value="Urbana">Urbana</option>
                     </select>
                 </div>
@@ -161,7 +169,7 @@
                     <label for="email">Zona</label>
 
                     <select id="update_zona" class="form-control" id="sel1">
-                        <option value="Rutal">Rutal</option>
+                        <option value="Rural">Rural</option>
                         <option value="Urbana">Urbana</option>
                     </select>
                 </div>

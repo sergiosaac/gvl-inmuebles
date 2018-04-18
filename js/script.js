@@ -146,6 +146,21 @@ function UpdateUserDetails() {
     );
 }
 
+
+// READ records
+function search() {
+
+    //$('.cargando').toggle();
+
+    var criterio = $('#criterio').val()
+
+    $.get("ajax/search.php", { criterio : criterio }, function (data, status) {
+        console.log(data);
+      //  $('.cargando').toggle();
+        $(".records_content").html(data);
+    });
+}
+
 $(document).ready(function () {
     // READ recods on page load
     readRecords(); // calling function

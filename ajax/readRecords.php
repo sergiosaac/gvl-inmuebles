@@ -31,10 +31,10 @@
 				<td>'.$row['tel_agente_inmobiliario'].'</td>
 				<td>'.$row['zona'].'</td>
 				<td>
-					<img class="icon-accion" onclick="GetUserDetails('.$row['id'].')" src="img/deit.png" height="30" width="30">
+					<img class="icon-accion" onclick="GetUserDetails('.$row['id'].')" src="img/deit.png" height="25" width="25">
 				</td>
 				<td>
-					<img class="icon-accion" onclick="DeleteUser('.$row['id'].')" src="img/borrar.png" height="30" width="30">
+					<img class="icon-accion" onclick="DeleteUser('.$row['id'].')" src="img/borrar.png" height="25" width="25">
 				</td>
     		</tr>';
     		$number++;

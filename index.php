@@ -16,9 +16,9 @@
       <a class="navbar-brand" href="#">Kiara Admin Inmuebles</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Inicio</a></li>
-      <li><a href="#">(Modulo 2)</a></li>
-      <li><a href="#">(Modulo 3)</a></li>
+      <!-- <li><a href="#">Inicio</a></li> -->
+      <!-- <li><a href="#"> Buscardor </a></li>
+      <li><a href="#">(Modulo 3)</a></li> -->
     </ul>
   </div>
 </nav>
@@ -37,7 +37,14 @@
         <div class="col-md-12">
             <h3>Lista de inmuebles:</h3>
             <br>
-            <div class="records_content"></div>
+            <div class="row">
+                
+                <input type="text" class="form-control" id="busqueda" placeholder="Buscar...">
+                <br>
+                <div class="records_content"></div>
+            </div>
+
+            
         </div>
     </div>
 </div>
@@ -86,7 +93,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Editar</h4>
+                <h4 class="modal-title" id="myModalLabel">Editar inmueble</h4>
             </div>
             <div class="modal-body">
 

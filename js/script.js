@@ -33,7 +33,7 @@ function readRecords() {
 
 
 function DeleteUser(id) {
-    var conf = confirm("Are you sure, do you really want to delete User?");
+    var conf = confirm("Seguro deseas borrar el inmueble?");
     if (conf == true) {
         $.post("ajax/deleteUser.php", {
                 id: id

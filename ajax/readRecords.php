@@ -6,6 +6,7 @@
 	$data = '<table class="table table-bordered table-striped">
 						<tr>
 							<th>No.</th>
+							<th>Foto</th>
 							<th>Agente inmobliliario</th>
 							<th>Tel Agente inmobliliario</th>
 							<th>Zona</th>
@@ -27,6 +28,7 @@
     	{
     		$data .= '<tr>
 				<td>'.$number.'</td>
+				<td style="text-align:center;" ><img heigth="90" width="90" src="img/inmuebles/'.$row['img'].'"></td>
 				<td>'.$row['agente_inmobiliario'].'</td>
 				<td>'.$row['tel_agente_inmobiliario'].'</td>
 				<td>'.$row['zona'].'</td>

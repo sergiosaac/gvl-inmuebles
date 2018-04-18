@@ -12,6 +12,7 @@ function addRecord() {
     var cantidad_de_piesas = $("#cantidad_de_piesas").val();
     var cantidad_de_autos_en_garage = $("#cantidad_de_autos_en_garage").val();
     var caracteristicas_de_inmueble = $("#caracteristicas_de_inmueble").val();
+    var imgNombre = $("#imgNombre").val();
 
     // Add record
     $.post("ajax/addRecord.php", {
@@ -26,7 +27,8 @@ function addRecord() {
         detalles_de_contruccion: detalles_de_contruccion,
         cantidad_de_piesas: cantidad_de_piesas,
         cantidad_de_autos_en_garage: cantidad_de_autos_en_garage,
-        caracteristicas_de_inmueble: caracteristicas_de_inmueble
+        caracteristicas_de_inmueble: caracteristicas_de_inmueble,
+        imgNombre : imgNombre
 
     }, function (data, status) {
 
@@ -48,6 +50,7 @@ function addRecord() {
         $("#cantidad_de_piesas").val("");
         $("#cantidad_de_autos_en_garage").val("");
         $("#caracteristicas_de_inmueble").val("");
+        $("#imgNombre").val("");
     });
 }
 
@@ -96,6 +99,7 @@ function GetUserDetails(id) {
             $("#update_cantidad_de_piesas").val(user.cantidad_de_piesas);
             $("#update_cantidad_de_autos_en_garage").val(user.cantidad_de_autos_en_garage);
             $("#update_caracteristicas_de_inmueble").val(user.caracteristicas_de_inmueble);
+            $("#update_imgNombre").val(user.imgNombre);
         }
     );
     // Open modal popup
@@ -115,6 +119,7 @@ function UpdateUserDetails() {
     var cantidad_de_piesas = $("#update_cantidad_de_piesas").val();
     var cantidad_de_autos_en_garage = $("#update_cantidad_de_autos_en_garage").val();
     var caracteristicas_de_inmueble = $("#update_caracteristicas_de_inmueble").val();
+    var imgNombre = $("#update_imgNombre").val();
 
     // get hidden field value
     var id = $("#hidden_user_id").val();
@@ -132,7 +137,8 @@ function UpdateUserDetails() {
             detalles_de_contruccion: detalles_de_contruccion,
             cantidad_de_piesas: cantidad_de_piesas,
             cantidad_de_autos_en_garage: cantidad_de_autos_en_garage,
-            caracteristicas_de_inmueble: caracteristicas_de_inmueble
+            caracteristicas_de_inmueble: caracteristicas_de_inmueble,
+            imgNombre : imgNombre
         
         },
         function (data, status) {
@@ -164,4 +170,48 @@ function search() {
 $(document).ready(function () {
     // READ recods on page load
     readRecords(); // calling function
+
+
+
+
+    $('#img').change(function(){
+        //información del formulario
+        var formData = new FormData($(".fotoForm")[0]);
+        var message = ""; 
+        //hacemos la petición ajax  
+        $.ajax({
+            url: 'ajax/uploadFile.php',  
+            type: 'POST',
+            // Form data
+            //datos del formulario
+            data: formData,
+            //necesario para subir archivos via ajax
+            cache: false,
+            contentType: false,
+            processData: false,
+            //mientras enviamos el archivo
+            beforeSend: function(){
+                alert('Subiendo archivo aguarda un momento...');
+            },
+            //una vez finalizado correctamente
+            success: function(data){
+                
+                alert('Archivo subido correctamente, puede continuar!');
+                $('#imgNombre').val(data);
+            },
+            //si ha ocurrido un error
+            error: function(){
+                
+                alert('Error favor intenta otro archivo :(');
+            }
+        });
+    });
+
+
+
+
+
+
+
+
 });

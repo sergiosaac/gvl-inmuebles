@@ -16,16 +16,17 @@
 		$cantidad_de_piesas = $_POST['cantidad_de_piesas'];
 		$cantidad_de_autos_en_garage = $_POST['cantidad_de_autos_en_garage'];
 		$caracteristicas_de_inmueble = $_POST['caracteristicas_de_inmueble'];
+		$imgNombre = $_POST['imgNombre'];
 
 		$query = "INSERT INTO 
 
-			users (agente_inmobiliario, tel_agente_inmobiliario,zona,barrio,direccion,precio_para_alquilar,comision_de_alquiler,detalles_de_contruccion,cantidad_de_piesas,cantidad_de_autos_en_garage,caracteristicas_de_inmueble) 
+			users (agente_inmobiliario, tel_agente_inmobiliario,zona,barrio,direccion,precio_para_alquilar,comision_de_alquiler,detalles_de_contruccion,cantidad_de_piesas,cantidad_de_autos_en_garage,caracteristicas_de_inmueble,img) 
 
 
 			VALUES
 
 
-			('$agente_inmobiliario', '$tel_agente_inmobiliario','$zona','$barrio','$direccion','$precio_para_alquilar','$comision_de_alquiler','$detalles_de_contruccion','$cantidad_de_piesas','$cantidad_de_autos_en_garage','$caracteristicas_de_inmueble')";
+			('$agente_inmobiliario', '$tel_agente_inmobiliario','$zona','$barrio','$direccion','$precio_para_alquilar','$comision_de_alquiler','$detalles_de_contruccion','$cantidad_de_piesas','$cantidad_de_autos_en_garage','$caracteristicas_de_inmueble' ,'$imgNombre')";
 
 
 

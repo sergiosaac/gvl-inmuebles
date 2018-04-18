@@ -86,6 +86,15 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="last_name">Foto inmueble: </label>
+                    
+                    <form class="fotoForm" enctype="multipart/form-data" method="POST">
+                        <input id="img" type="file" name="img">    
+                    </form>
+                    
+                </div>
+
+                <div class="form-group">
                     <label for="email">Zona</label>
 
                     <select id="zona" class="form-control" id="sel1">
@@ -133,7 +142,7 @@
                     <label for="last_name">Caracteristicas de inmueble</label>
                     <textarea class="form-control" id="caracteristicas_de_inmueble" placeholder="Caracteristicas de inmueble"></textarea>
                 </div>
-
+                <input type="hidden" name="imgNombre" id="imgNombre">
 
             </div>
             <div class="modal-footer">
@@ -164,6 +173,15 @@
                     <label for="update_last_name">Tel. Agente inmobiliario</label>
                     <input type="text" id="update_tel_agente_inmobiliario" placeholder="Last Name" class="form-control"/>
                 </div>
+
+                <!-- <div class="form-group">
+                    <label for="last_name">Foto inmueble: </label>
+                    
+                    <form class="fotoForm" enctype="multipart/form-data" method="POST">
+                        <input id="img" type="file" name="img">    
+                    </form>
+                    
+                </div> -->
 
                 <div class="form-group">
                     <label for="email">Zona</label>
@@ -199,6 +217,7 @@
                     <textarea class="form-control" id="update_detalles_de_contruccion" placeholder="Detalles de contruccion"></textarea>
                 </div>
 
+                <input type="hidden" name="update_imgNombre" id="update_imgNombre">
                 <div class="form-group">
                     <label for="last_name">Cantidad de piesas</label>
                     <input type="text" id="update_cantidad_de_piesas" placeholder="Cantidad de piesas" class="form-control"/>

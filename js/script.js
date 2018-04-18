@@ -15,6 +15,7 @@ function addRecord() {
 
     // Add record
     $.post("ajax/addRecord.php", {
+        
         agente_inmobiliario: agente_inmobiliario,
         tel_agente_inmobiliario: tel_agente_inmobiliario,
         zona: zona,
@@ -28,6 +29,7 @@ function addRecord() {
         caracteristicas_de_inmueble: caracteristicas_de_inmueble
 
     }, function (data, status) {
+
         // close the popup
         $("#add_new_record_modal").modal("hide");
 
@@ -97,6 +99,14 @@ function UpdateUserDetails() {
     var agente_inmobiliario = $("#update_agente_inmobiliario").val();
     var tel_agente_inmobiliario = $("#update_tel_agente_inmobiliario").val();
     var zona = $("#update_zona").val();
+    var barrio = $("#update_barrio").val();
+    var direccion = $("#update_direccion").val();
+    var precio_para_alquilar = $("#update_precio_para_alquilar").val();
+    var comision_de_alquiler = $("#cupdate_omision_de_alquiler").val();
+    var detalles_de_contruccion = $("#update_detalles_de_contruccion").val();
+    var cantidad_de_piesas = $("#update_cantidad_de_piesas").val();
+    var cantidad_de_autos_en_garage = $("#update_cantidad_de_autos_en_garage").val();
+    var caracteristicas_de_inmueble = $("#update_caracteristicas_de_inmueble").val();
 
     // get hidden field value
     var id = $("#hidden_user_id").val();
@@ -106,7 +116,16 @@ function UpdateUserDetails() {
             id: id,
             agente_inmobiliario: agente_inmobiliario,
             tel_agente_inmobiliario: tel_agente_inmobiliario,
-            zona: zona
+            zona: zona,
+            barrio: barrio,
+            direccion: direccion,
+            precio_para_alquilar: precio_para_alquilar,
+            comision_de_alquiler: comision_de_alquiler,
+            detalles_de_contruccion: detalles_de_contruccion,
+            cantidad_de_piesas: cantidad_de_piesas,
+            cantidad_de_autos_en_garage: cantidad_de_autos_en_garage,
+            caracteristicas_de_inmueble: caracteristicas_de_inmueble
+        
         },
         function (data, status) {
 

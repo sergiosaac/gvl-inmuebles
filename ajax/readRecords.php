@@ -10,6 +10,14 @@
 							<th>Agente inmobliliario</th>
 							<th>Tel Agente inmobliliario</th>
 							<th>Zona</th>
+							<th>Barrio</th>
+							<th>Direccion</th>
+							<th>Precio para alquilar</th>
+							<th>Comision de alquiler</th>
+							<th>Detalles de contruccion</th>
+							<th>Cantidad de piesas</th>
+							<th>Cantidad de autos en garage</th>
+							<th>Caracteristicas de inmueble</th>
 							<th>Editar</th>
 							<th>Borrar</th>
 						</tr>';
@@ -32,6 +40,14 @@
 				<td>'.$row['agente_inmobiliario'].'</td>
 				<td>'.$row['tel_agente_inmobiliario'].'</td>
 				<td>'.$row['zona'].'</td>
+				<td>'.$row['barrio'].'</td>
+				<td>'.$row['direccion'].'</td>
+				<td>'.$row['precio_para_alquilar'].'</td>
+				<td>'.$row['comision_de_alquiler'].'</td>
+				<td>'.$row['detalles_de_contruccion'].'</td>
+				<td>'.$row['cantidad_de_piesas'].'</td>
+				<td>'.$row['cantidad_de_autos_en_garage'].'</td>
+				<td>'.$row['caracteristicas_de_inmueble'].'</td>
 				<td>
 					<img class="icon-accion" onclick="GetUserDetails('.$row['id'].')" src="img/deit.png" height="25" width="25">
 				</td>

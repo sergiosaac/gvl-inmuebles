@@ -64,18 +64,63 @@
 
                 <div class="form-group">
                     <label for="first_name">Agente inmobiliario</label>
-                    <input type="text" id="agente_inmobiliario" placeholder="First Name" class="form-control"/>
+                    <input type="text" id="agente_inmobiliario" placeholder="Agente inmobiliario" class="form-control"/>
                 </div>
 
                 <div class="form-group">
                     <label for="last_name">Tel. Agente inmobiliario</label>
-                    <input type="text" id="tel_agente_inmobiliario" placeholder="Last Name" class="form-control"/>
+                    <input type="text" id="tel_agente_inmobiliario" placeholder="Tel. Agente inmobiliario" class="form-control"/>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Zona</label>
-                    <input type="text" id="zona" placeholder="Email Address" class="form-control"/>
+
+                    <select id="zona" class="form-control" id="sel1">
+                        <option value="Rutal">Rutal</option>
+                        <option value="Urbana">Urbana</option>
+                    </select>
                 </div>
+
+                <div class="form-group">
+                    <label for="last_name">Barrio</label>
+                    <input type="text" id="barrio" placeholder="Barrio" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Direccion</label>
+                    <input type="text" id="direccion" placeholder="Direccion" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Precio para alquilar</label>
+                    <input type="text" id="precio_para_alquilar" placeholder="Precio para alquilar" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Comision de alquiler</label>
+                    <input type="text" id="comision_de_alquiler" placeholder="Comision de alquiler" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Detalles de contruccion</label>
+                    <textarea class="form-control" id="detalles_de_contruccion" placeholder="Detalles de contruccion"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Cantidad de piesas</label>
+                    <input type="text" id="cantidad_de_piesas" placeholder="Cantidad de piesas" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Cantidad de autos en garage</label>
+                    <input type="text" id="cantidad_de_autos_en_garage" placeholder="Cantidad de autos en garage" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Caracteristicas de inmueble</label>
+                    <textarea class="form-control" id="caracteristicas_de_inmueble" placeholder="Caracteristicas de inmueble"></textarea>
+                </div>
+
 
             </div>
             <div class="modal-footer">
@@ -108,8 +153,12 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="update_email">Zona</label>
-                    <input type="text" id="update_zona" placeholder="Email Address" class="form-control"/>
+                    <label for="email">Zona</label>
+
+                    <select id="update_zona" class="form-control" id="sel1">
+                        <option value="Rutal">Rutal</option>
+                        <option value="Urbana">Urbana</option>
+                    </select>
                 </div>
 
             </div>

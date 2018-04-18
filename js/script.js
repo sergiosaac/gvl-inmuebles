@@ -4,12 +4,29 @@ function addRecord() {
     var agente_inmobiliario = $("#agente_inmobiliario").val();
     var tel_agente_inmobiliario = $("#tel_agente_inmobiliario").val();
     var zona = $("#zona").val();
+    var barrio = $("#barrio").val();
+    var direccion = $("#direccion").val();
+    var precio_para_alquilar = $("#precio_para_alquilar").val();
+    var comision_de_alquiler = $("#comision_de_alquiler").val();
+    var detalles_de_contruccion = $("#detalles_de_contruccion").val();
+    var cantidad_de_piesas = $("#cantidad_de_piesas").val();
+    var cantidad_de_autos_en_garage = $("#cantidad_de_autos_en_garage").val();
+    var caracteristicas_de_inmueble = $("#caracteristicas_de_inmueble").val();
 
     // Add record
     $.post("ajax/addRecord.php", {
         agente_inmobiliario: agente_inmobiliario,
         tel_agente_inmobiliario: tel_agente_inmobiliario,
-        zona: zona
+        zona: zona,
+        barrio: barrio,
+        direccion: direccion,
+        precio_para_alquilar: precio_para_alquilar,
+        comision_de_alquiler: comision_de_alquiler,
+        detalles_de_contruccion: detalles_de_contruccion,
+        cantidad_de_piesas: cantidad_de_piesas,
+        cantidad_de_autos_en_garage: cantidad_de_autos_en_garage,
+        caracteristicas_de_inmueble: caracteristicas_de_inmueble
+
     }, function (data, status) {
         // close the popup
         $("#add_new_record_modal").modal("hide");
@@ -21,6 +38,14 @@ function addRecord() {
         $("#agente_inmobiliario").val("");
         $("#tel_agente_inmobiliario").val("");
         $("#zona").val("");
+        $("#barrio").val();
+        $("#direccion").val("");
+        $("#precio_para_alquilar").val("");
+        $("#comision_de_alquiler").val("");
+        $("#detalles_de_contruccion").val("");
+        $("#cantidad_de_piesas").val("");
+        $("#cantidad_de_autos_en_garage").val("");
+        $("#caracteristicas_de_inmueble").val("");
     });
 }
 

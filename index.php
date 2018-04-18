@@ -16,7 +16,7 @@
       <a class="navbar-brand" href="#">Kiara Admin Inmuebles</a>
     </div>
     <ul class="nav navbar-nav">
-      <!-- <li><a href="#">Inicio</a></li> -->
+      <li class="active"><a href="#">Inicio</a></li>
       <!-- <li><a href="#"> Buscardor </a></li>
       <li><a href="#">(Modulo 3)</a></li> -->
     </ul>
@@ -24,15 +24,9 @@
 </nav>
 
 <!-- Content Section -->
-<div class="container">
+<div class="row col-md-12" style="padding: 40px;">
     
-    <div class="row">
-        <div class="col-md-12">
-            <div class="pull-right">
-                <img class="icon-accion" data-toggle="modal" data-target="#add_new_record_modal" src="img/add.png" height="34" width="34">
-            </div>
-        </div>
-    </div>
+    
     <div class="row">
         <div class="col-md-12">
             <h3>Lista de inmuebles:</h3>
@@ -41,6 +35,17 @@
                 
                 <input type="text" class="form-control" id="busqueda" placeholder="Buscar...">
                 <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="pull-right">
+                            <img class="icon-accion" data-toggle="modal" data-target="#add_new_record_modal" src="img/add.png" height="34" width="34">
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
                 <div class="records_content"></div>
             </div>
 

@@ -18,7 +18,7 @@
 							<th>Cantidad de piesas</th>
 							<th>Cantidad de autos en garage</th>
 							<th>Caracteristicas de inmueble</th>
-							<th>Editar</th>
+							<th>Ver / Editar</th>
 							<th>Borrar</th>
 						</tr>';
 

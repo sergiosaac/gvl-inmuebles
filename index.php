@@ -161,6 +161,46 @@
                     </select>
                 </div>
 
+                <div class="form-group">
+                    <label for="last_name">Barrio</label>
+                    <input type="text" id="update_barrio" placeholder="Barrio" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Direccion</label>
+                    <input type="text" id="update_direccion" placeholder="Direccion" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Precio para alquilar</label>
+                    <input type="text" id="update_precio_para_alquilar" placeholder="Precio para alquilar" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Comision de alquiler</label>
+                    <input type="text" id="update_comision_de_alquiler" placeholder="Comision de alquiler" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Detalles de contruccion</label>
+                    <textarea class="form-control" id="update_detalles_de_contruccion" placeholder="Detalles de contruccion"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Cantidad de piesas</label>
+                    <input type="text" id="update_cantidad_de_piesas" placeholder="Cantidad de piesas" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Cantidad de autos en garage</label>
+                    <input type="text" id="update_cantidad_de_autos_en_garage" placeholder="Cantidad de autos en garage" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Caracteristicas de inmueble</label>
+                    <textarea class="form-control" id="update_caracteristicas_de_inmueble" placeholder="Caracteristicas de inmueble"></textarea>
+                </div>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>

@@ -88,6 +88,14 @@ function GetUserDetails(id) {
             $("#update_agente_inmobiliario").val(user.agente_inmobiliario);
             $("#update_tel_agente_inmobiliario").val(user.tel_agente_inmobiliario);
             $("#update_zona").val(user.zona);
+            $("#update_barrio").val(user.barrio);
+            $("#update_direccion").val(user.direccion);
+            $("#update_precio_para_alquilar").val(user.precio_para_alquilar);
+            $("#update_comision_de_alquiler").val(user.comision_de_alquiler);
+            $("#update_detalles_de_contruccion").val(user.detalles_de_contruccion);
+            $("#update_cantidad_de_piesas").val(user.cantidad_de_piesas);
+            $("#update_cantidad_de_autos_en_garage").val(user.cantidad_de_autos_en_garage);
+            $("#update_caracteristicas_de_inmueble").val(user.caracteristicas_de_inmueble);
         }
     );
     // Open modal popup
@@ -102,7 +110,7 @@ function UpdateUserDetails() {
     var barrio = $("#update_barrio").val();
     var direccion = $("#update_direccion").val();
     var precio_para_alquilar = $("#update_precio_para_alquilar").val();
-    var comision_de_alquiler = $("#cupdate_omision_de_alquiler").val();
+    var comision_de_alquiler = $("#update_comision_de_alquiler").val();
     var detalles_de_contruccion = $("#update_detalles_de_contruccion").val();
     var cantidad_de_piesas = $("#update_cantidad_de_piesas").val();
     var cantidad_de_autos_en_garage = $("#update_cantidad_de_autos_en_garage").val();

@@ -7,15 +7,15 @@
 						<tr>
 							<th>No.</th>
 							<th>Foto</th>
-							<th>Agente inmobliliario</th>
+							<th>Agente inmobliliario o propietario</th>
 							<th>Tel Agente inmobliliario</th>
 							<th>Zona</th>
 							<th>Barrio</th>
 							<th>Direccion</th>
 							<th>Precio para alquilar</th>
-							<th>Comision de alquiler</th>
+							<th>Comision de alquiler o de ventas</th>
 							<th>Detalles de contruccion</th>
-							<th>Cantidad de piesas</th>
+							<th>Cantidad de habitaciones</th>
 							<th>Cantidad de autos en garage</th>
 							<th>Caracteristicas de inmueble</th>
 							<th>Ver / Editar</th>

@@ -18,3 +18,12 @@ AMB de inmuebles
 	•cantidad de piesas
 	•cantidad de autos en garage
 •cantidad de baños etc osea esto puede estar en un solo campo que diga caracteristicas o detalles del inmueble o lo que ofrece
+
+
+
+agent inm propietario
+
+
+comision de alquiler o comision ventas
+
+habitaciones

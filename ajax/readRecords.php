@@ -61,7 +61,7 @@
     else
     {
     	// records now found 
-    	$data .= '<tr><td colspan="6">Records not found!</td></tr>';
+    	$data .= '<tr><td colspan="6">No hay resultados!</td></tr>';
     }
 
     $data .= '</table>';

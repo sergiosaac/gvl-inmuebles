@@ -138,7 +138,7 @@
 
                 <div class="form-group">
                     <label for="first_name">Agente inmobiliario o propietario</label>
-                    <input type="text" id="agente_inmobiliario" placeholder="Agente inmobiliario" class="form-control"/>
+                    <input type="text" id="agente_inmobiliario" placeholder="Agente inmobiliario o propietario" class="form-control"/>
                 </div>
 
                 <div class="form-group">
@@ -181,7 +181,7 @@
 
                 <div class="form-group">
                     <label for="last_name">Comision de alquiler o de ventas</label>
-                    <input type="text" id="comision_de_alquiler" placeholder="Comision de alquiler" class="form-control"/>
+                    <input type="text" id="comision_de_alquiler" placeholder="Comision de alquiler o de ventas" class="form-control"/>
                 </div>
 
                 <div class="form-group">
@@ -191,7 +191,7 @@
 
                 <div class="form-group">
                     <label for="last_name">Cantidad de habitaciones</label>
-                    <input type="text" id="cantidad_de_piesas" placeholder="Cantidad de piesas" class="form-control"/>
+                    <input type="text" id="cantidad_de_piesas" placeholder="Cantidad de habitaciones" class="form-control"/>
                 </div>
 
                 <div class="form-group">
@@ -227,7 +227,7 @@
 
                 <div class="form-group">
                     <label for="update_first_name">Agente inmobiliario o propietario</label>
-                    <input type="text" id="update_agente_inmobiliario" placeholder="First Name" class="form-control"/>
+                    <input type="text" id="update_agente_inmobiliario" placeholder="Agente inmobiliario o propietario" class="form-control"/>
                 </div>
 
                 <div class="form-group">
@@ -270,7 +270,7 @@
 
                 <div class="form-group">
                     <label for="last_name">Comision de alquiler o de ventas</label>
-                    <input type="text" id="update_comision_de_alquiler" placeholder="Comision de alquiler" class="form-control"/>
+                    <input type="text" id="update_comision_de_alquiler" placeholder="Comision de alquiler o de ventas" class="form-control"/>
                 </div>
 
                 <div class="form-group">
@@ -281,7 +281,7 @@
                 <input type="hidden" name="update_imgNombre" id="update_imgNombre">
                 <div class="form-group">
                     <label for="last_name">Cantidad de habitaciones</label>
-                    <input type="text" id="update_cantidad_de_piesas" placeholder="Cantidad de piesas" class="form-control"/>
+                    <input type="text" id="update_cantidad_de_piesas" placeholder="Cantidad de habitaciones" class="form-control"/>
                 </div>
 
                 <div class="form-group">

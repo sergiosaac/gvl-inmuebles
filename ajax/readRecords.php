@@ -36,7 +36,7 @@
     	{
     		$data .= '<tr>
 				<td>'.$number.'</td>
-				<td style="text-align:center;" ><img heigth="90" width="90" src="ajax/files/'.$row['img'].'"></td>
+				<td style="text-align:center;" ><img heigth="45" width="45" src="ajax/files/'.$row['img'].'"></td>
 				<td>'.$row['agente_inmobiliario'].'</td>
 				<td>'.$row['cantidad_de_autos_en_garage'].'</td>
 				<td>'.$row['tel_agente_inmobiliario'].'</td>

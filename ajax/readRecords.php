@@ -13,8 +13,8 @@
 							<th>Zona</th>
 							<th>Barrio</th>
 							<th>Direccion</th>
-							<th>Precio para alquilar</th>
-							<th>Comision de alquiler o de ventas</th>
+							<th>Precio</th>
+							<th>Comision</th>
 							<th>Detalles de contruccion</th>
 							<th>Cantidad de habitaciones</th>
 							<th>Caracteristicas de inmueble</th>

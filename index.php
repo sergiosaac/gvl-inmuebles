@@ -142,6 +142,11 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="last_name">Propietario</label>
+                    <input type="text" id="cantidad_de_autos_en_garage" placeholder="Propietario" class="form-control"/>
+                </div>
+
+                <div class="form-group">
                     <label for="last_name">Tel. Agente inmobiliario</label>
                     <input type="text" id="tel_agente_inmobiliario" placeholder="Tel. Agente inmobiliario" class="form-control"/>
                 </div>
@@ -195,11 +200,6 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="last_name">Propietario</label>
-                    <input type="text" id="cantidad_de_autos_en_propietario" placeholder="Propietario" class="form-control"/>
-                </div>
-
-                <div class="form-group">
                     <label for="last_name">Caracteristicas de inmueble</label>
                     <textarea class="form-control" id="caracteristicas_de_inmueble" placeholder="Caracteristicas de inmueble"></textarea>
                 </div>
@@ -228,6 +228,11 @@
                 <div class="form-group">
                     <label for="update_first_name">Agente inmobiliario</label>
                     <input type="text" id="update_agente_inmobiliario" placeholder="Agente inmobiliario" class="form-control"/>
+                </div>
+
+                 <div class="form-group">
+                    <label for="last_name">Propietario</label>
+                    <input type="text" id="update_cantidad_de_autos_en_garage" placeholder="Propietario" class="form-control"/>
                 </div>
 
                 <div class="form-group">
@@ -284,10 +289,7 @@
                     <input type="text" id="update_cantidad_de_piesas" placeholder="Cantidad de habitaciones" class="form-control"/>
                 </div>
 
-                <div class="form-group">
-                    <label for="last_name">Propietario</label>
-                    <input type="text" id="update_cantidad_de_autos_en_propietario" placeholder="Propietario" class="form-control"/>
-                </div>
+               
 
                 <div class="form-group">
                     <label for="last_name">Caracteristicas de inmueble</label>

@@ -7,7 +7,8 @@
 						<tr>
 							<th>No.</th>
 							<th>Foto</th>
-							<th>Agente inmobliliario o propietario</th>
+							<th>Agente inmobliliario</th>
+							<th>Propietario</th>
 							<th>Tel Agente inmobliliario</th>
 							<th>Zona</th>
 							<th>Barrio</th>
@@ -16,7 +17,6 @@
 							<th>Comision de alquiler o de ventas</th>
 							<th>Detalles de contruccion</th>
 							<th>Cantidad de habitaciones</th>
-							<th>Cantidad de autos en garage</th>
 							<th>Caracteristicas de inmueble</th>
 							<th>Ver / Editar</th>
 							<th>Borrar</th>
@@ -38,6 +38,7 @@
 				<td>'.$number.'</td>
 				<td style="text-align:center;" ><img heigth="90" width="90" src="ajax/files/'.$row['img'].'"></td>
 				<td>'.$row['agente_inmobiliario'].'</td>
+				<td>'.$row['cantidad_de_autos_en_garage'].'</td>
 				<td>'.$row['tel_agente_inmobiliario'].'</td>
 				<td>'.$row['zona'].'</td>
 				<td>'.$row['barrio'].'</td>
@@ -46,7 +47,6 @@
 				<td>'.$row['comision_de_alquiler'].'</td>
 				<td>'.$row['detalles_de_contruccion'].'</td>
 				<td>'.$row['cantidad_de_piesas'].'</td>
-				<td>'.$row['cantidad_de_autos_en_garage'].'</td>
 				<td>'.$row['caracteristicas_de_inmueble'].'</td>
 				<td>
 					<img class="icon-accion" onclick="GetUserDetails('.$row['id'].')" src="img/deit.png" height="25" width="25">

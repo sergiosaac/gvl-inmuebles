@@ -137,7 +137,7 @@
             <div class="modal-body">
 
                 <div class="form-group">
-                    <label for="first_name">Agente inmobiliario o propietario</label>
+                    <label for="first_name">Agente inmobiliario</label>
                     <input type="text" id="agente_inmobiliario" placeholder="Agente inmobiliario o propietario" class="form-control"/>
                 </div>
 
@@ -195,8 +195,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="last_name">Cantidad de autos en garage</label>
-                    <input type="text" id="cantidad_de_autos_en_garage" placeholder="Cantidad de autos en garage" class="form-control"/>
+                    <label for="last_name">Propietario</label>
+                    <input type="text" id="cantidad_de_autos_en_propietario" placeholder="Cantidad de autos en propietario" class="form-control"/>
                 </div>
 
                 <div class="form-group">
@@ -226,7 +226,7 @@
             <div class="modal-body">
 
                 <div class="form-group">
-                    <label for="update_first_name">Agente inmobiliario o propietario</label>
+                    <label for="update_first_name">Agente inmobiliario</label>
                     <input type="text" id="update_agente_inmobiliario" placeholder="Agente inmobiliario o propietario" class="form-control"/>
                 </div>
 
@@ -285,8 +285,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="last_name">Cantidad de autos en garage</label>
-                    <input type="text" id="update_cantidad_de_autos_en_garage" placeholder="Cantidad de autos en garage" class="form-control"/>
+                    <label for="last_name">Propietario</label>
+                    <input type="text" id="update_cantidad_de_autos_en_propietario" placeholder="Cantidad de autos en propietario" class="form-control"/>
                 </div>
 
                 <div class="form-group">

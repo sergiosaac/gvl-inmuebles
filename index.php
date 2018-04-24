@@ -175,13 +175,13 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="last_name">Precio para alquilar</label>
-                    <input type="text" id="precio_para_alquilar" placeholder="Precio para alquilar" class="form-control"/>
+                    <label for="last_name">Precio</label>
+                    <input type="text" id="precio_para_alquilar" placeholder="Precio" class="form-control"/>
                 </div>
 
                 <div class="form-group">
-                    <label for="last_name">Comision de alquiler o de ventas</label>
-                    <input type="text" id="comision_de_alquiler" placeholder="Comision de alquiler o de ventas" class="form-control"/>
+                    <label for="last_name">Comision</label>
+                    <input type="text" id="comision_de_alquiler" placeholder="Comision" class="form-control"/>
                 </div>
 
                 <div class="form-group">
@@ -264,13 +264,13 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="last_name">Precio para alquilar</label>
-                    <input type="text" id="update_precio_para_alquilar" placeholder="Precio para alquilar" class="form-control"/>
+                    <label for="last_name">Precio</label>
+                    <input type="text" id="update_precio_para_alquilar" placeholder="Precio" class="form-control"/>
                 </div>
 
                 <div class="form-group">
-                    <label for="last_name">Comision de alquiler o de ventas</label>
-                    <input type="text" id="update_comision_de_alquiler" placeholder="Comision de alquiler o de ventas" class="form-control"/>
+                    <label for="last_name">Comision</label>
+                    <input type="text" id="update_comision_de_alquiler" placeholder="Comision" class="form-control"/>
                 </div>
 
                 <div class="form-group">

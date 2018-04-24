@@ -147,8 +147,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="last_name">Tel. Agente inmobiliario</label>
-                    <input type="text" id="tel_agente_inmobiliario" placeholder="Tel. Agente inmobiliario" class="form-control"/>
+                    <label for="last_name">Telefono</label>
+                    <input type="text" id="tel_agente_inmobiliario" placeholder="Telefono" class="form-control"/>
                 </div>
 
                 <div class="form-group">
@@ -236,8 +236,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="update_last_name">Tel. Agente inmobiliario</label>
-                    <input type="text" id="update_tel_agente_inmobiliario" placeholder="Last Name" class="form-control"/>
+                    <label for="update_last_name">Telefono</label>
+                    <input type="text" id="update_tel_agente_inmobiliario" placeholder="Telefono" class="form-control"/>
                 </div>
 
                 <!-- <div class="form-group">

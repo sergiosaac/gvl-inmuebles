@@ -9,7 +9,7 @@
 							<th>Foto</th>
 							<th>Agente inmobliliario</th>
 							<th>Propietario</th>
-							<th>Tel Agente inmobliliario</th>
+							<th>Telêfono</th>
 							<th>Zona</th>
 							<th>Barrio</th>
 							<th>Direccion</th>
